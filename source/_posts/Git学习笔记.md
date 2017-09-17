@@ -38,3 +38,11 @@ $ ssh -T git@github.com
 * git branch new_name ——创建新分支
 * git checkout branch_name ——切换到branch_name分支
 * git checkout - ——切换回上一个分支 
+* git merge ——合并分支
+```shell
+$ git checkout master
+$ git merge --no-ff feature-A
+```
+* git log --graph ——以图表形式查看分支
+* git reset --hard 相关head的哈希值
+* git reflog ——查看当前仓库的操作日志
